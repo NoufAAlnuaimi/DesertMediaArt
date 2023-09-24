@@ -1,8 +1,7 @@
 # DesertMediaArt
 
 ### Exercise 1
-#### An LED Rainbow 
-
+#### Rainbow: LED Light Color Transition Project Code
  ```
 """CircuitPython Essentials Internal RGB LED red, green, blue example"""
 import time
