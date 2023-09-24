@@ -53,7 +53,8 @@ while True:
     time.sleep(0.5)  
     
     led[0] = (0, 128, 0)
-    time.sleep(0.5)  
+    time.sleep(0.5)
+ 
     led[0] = (34, 139, 34)
     time.sleep(0.5)  
     
@@ -98,6 +99,7 @@ while True:
 #Red Shades
    led[0] = (255, 69, 0)
     time.sleep(0.5)
+
     led[0] = (255, 0, 0)
     time.sleep(0.5)
     
