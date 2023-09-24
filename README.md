@@ -3,7 +3,7 @@
 ### Exercise 1
 #### Rainbow: LED Light Color Transition Project Code
  ```
-"""CircuitPython Essentials Internal RGB LED red, green, blue example"""
+"""Internal RGB LED project"""
 import time
 import board
 print ('Hello World')
