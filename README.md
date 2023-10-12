@@ -213,3 +213,7 @@ while True:
 ![IMG_9098](https://github.com/NoufAAlnuaimi/DesertMediaArt/assets/144128799/d33d2af7-082f-4579-8610-d957a25588ac)
 
 
+#### Circuit Diagram
+[circuirdiagram.pdf](https://github.com/NoufAAlnuaimi/DesertMediaArt/files/12883126/circuirdiagram.pdf)
+
+
