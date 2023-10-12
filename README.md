@@ -112,4 +112,101 @@ while True:
     led[0] = (128,0,0)
     time.sleep(0.5)
   ```
+
+### Exercise 3
+ ```
+import time
+import board
+import analogio
+import digitalio
+import neopixel
+
+# Set the pin for the LDR (Light-Dependent Resistor)
+ldr_pin = analogio.AnalogIn(board.A1)
+ldr_pin2 = analogio.AnalogIn(board.A3)
+
+# Set the pin for the NeoPixel ring
+pixel_pin = board.D5
+num_pixels = 12
+
+# Create NeoPixel object
+pixels = neopixel.NeoPixel(pixel_pin, num_pixels, brightness=0.2)
+
+# Define the LDR threshold
+#darkness
+threshold = 3000
+threshold2 = 3000
+
+# for bright light
+threshold3 = 30000
+threshold4 = 30000
+
+
+print("Enabling NeoPixel power!")
+enable = digitalio.DigitalInOut(board.D10)
+enable.direction = digitalio.Direction.OUTPUT
+enable.value = True   
+   
+while True:
+    ldr_value = ldr_pin.value
+    ldr_value2 = ldr_pin2.value
+    print("LDR Value:", ldr_value)
+    print("LDR Value2:", ldr_value2)
+
+    if ldr_value < threshold:
+        pixels[0] = (0, 0, 255)
+        pixels[1] = (0, 0, 255)
+        pixels[2] = (0, 0, 255)
+        pixels[3] = (0, 0, 255)
+        pixels[4] = (0, 0, 255)
+        pixels[5] = (0, 0, 255)
+ 
+    else:
+       pixels.fill((255, 255, 255))
+        
+    if ldr_value2 < threshold2:
     
+        pixels[6] = (0, 255, 255)
+        pixels[7] = (0, 255, 255)
+        pixels[8] = (0, 255, 255)
+        pixels[9] = (0, 255, 255)
+        pixels[10] = (0, 255, 255)
+        pixels[11] = (0, 255, 255)
+     
+      
+     
+
+
+
+#when brightness is high
+
+    if ldr_value > threshold3:
+    
+        pixels[6] = (0, 255, 0)
+        pixels[7] = (0, 255, 0)
+        pixels[8] = (0, 255, 0)
+        pixels[9] = (0, 255, 0)
+        pixels[10] = (0, 255, 0)
+        pixels[11] = (0, 255, 0)
+     
+      
+     
+  
+
+    if ldr_value2 > threshold4:
+        pixels[0] = (255, 255, 0)
+        pixels[1] = (255, 255, 0)
+        pixels[2] = (255, 255, 0)
+        pixels[3] = (255, 255, 0)
+        pixels[4] = (255, 255, 0)
+        pixels[5] = (255, 255, 0)
+
+        
+        
+    pixels.show()
+    time.sleep(0.25)  #delay for visibility and LDR reading
+
+   ```
+![IMG_9098](https://github.com/NoufAAlnuaimi/DesertMediaArt/assets/144128799/d33d2af7-082f-4579-8610-d957a25588ac)
+
+
