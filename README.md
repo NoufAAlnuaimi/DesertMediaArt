@@ -207,6 +207,9 @@ while True:
     time.sleep(0.25)  #delay for visibility and LDR reading
 
    ```
+
+![IMG_9137](https://github.com/NoufAAlnuaimi/DesertMediaArt/assets/144128799/a0da5d22-f1bf-4c96-aa08-140e3483169f)
+![IMG_9136](https://github.com/NoufAAlnuaimi/DesertMediaArt/assets/144128799/422c77c9-e2cd-426c-98d4-2318cf0ecfb9)
 ![IMG_9098](https://github.com/NoufAAlnuaimi/DesertMediaArt/assets/144128799/d33d2af7-082f-4579-8610-d957a25588ac)
 
 
