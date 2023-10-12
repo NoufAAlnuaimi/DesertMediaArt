@@ -113,6 +113,7 @@ while True:
     time.sleep(0.5)
   ```
 
+
 ### Exercise 3
  ```
 import time
@@ -172,11 +173,6 @@ while True:
         pixels[9] = (0, 255, 255)
         pixels[10] = (0, 255, 255)
         pixels[11] = (0, 255, 255)
-     
-      
-     
-
-
 
 #when brightness is high
 
@@ -188,10 +184,6 @@ while True:
         pixels[9] = (0, 255, 0)
         pixels[10] = (0, 255, 0)
         pixels[11] = (0, 255, 0)
-     
-      
-     
-  
 
     if ldr_value2 > threshold4:
         pixels[0] = (255, 255, 0)
@@ -201,7 +193,6 @@ while True:
         pixels[4] = (255, 255, 0)
         pixels[5] = (255, 255, 0)
 
-        
         
     pixels.show()
     time.sleep(0.25)  #delay for visibility and LDR reading
@@ -214,6 +205,7 @@ while True:
 
 
 #### Circuit Diagram
-[circuirdiagram.pdf](https://github.com/NoufAAlnuaimi/DesertMediaArt/files/12883126/circuirdiagram.pdf)
+![circuirdiagram](https://github.com/NoufAAlnuaimi/DesertMediaArt/assets/144128799/10bdb9fe-0ff9-49c7-88b9-d32e9d75f567)
+
 
 
