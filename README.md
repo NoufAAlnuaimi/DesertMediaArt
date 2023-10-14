@@ -205,7 +205,7 @@ while True:
 ![IMG_9098](https://github.com/NoufAAlnuaimi/DesertMediaArt/assets/144128799/d33d2af7-082f-4579-8610-d957a25588ac)
 
 
-[Video Demo] (https://drive.google.com/file/d/1F8iX1j2sUEi0TorR-WuuP_OVvw26NUPI/view?usp=sharing)
+[Video Demo] (https://drive.google.com/file/d/1F8iX1j2sUEi0TorR-WuuP_OVvw26NUPI/view?usp=sharing).
 
 
 #### Circuit Diagram
